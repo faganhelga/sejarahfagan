@@ -1,0 +1,72 @@
+body {
+    font-family: Georgia, serif;
+    line-height: 1.8;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f0e1; /* Warna krem lembut */
+    color: #2f2f2f; /* Warna teks abu-abu tua */
+}
+
+header {
+    background-color: #5a3e2b; /* Warna cokelat tua */
+    color: #f5f0e1; /* Warna krem untuk teks */
+    padding: 1.5rem 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+nav a {
+    color: #f5f0e1; /* Teks krem */
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+nav a:hover {
+    color: #c9a66b; /* Warna emas lembut */
+}
+
+main {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    background-color: #fff8e7; /* Warna kertas tua */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid #d1c2a5; /* Garis krem klasik */
+}
+
+section h2 {
+    color: #5a3e2b; /* Warna cokelat tua */
+    font-size: 1.8rem;
+    border-bottom: 2px solid #c9a66b; /* Garis bawah emas */
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+footer {
+    background-color: #5a3e2b; /* Warna cokelat tua */
+    color: #f5f0e1; /* Teks krem */
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+}
